@@ -280,3 +280,28 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
  }
+
+ .conteneur-association {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+p.p-b {
+  flex: 1;
+  color: #935dc7;
+  font-size: 30px;
+  
+}
+
+.images-association {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.images-association img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px; 
+}
